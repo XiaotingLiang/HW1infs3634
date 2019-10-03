@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HomeworkTask1</string>
+    <string name="newyork">NewYork</string>>
+    <string name="sydney">"Sydney"</string>
+    <string name="beijing">"Beijing"</string>
+    <string name="japan">"Japan"</string>
+    <string name="london">"London"</string>
+    <string name="title_activity_bottomtest">bottomtest</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

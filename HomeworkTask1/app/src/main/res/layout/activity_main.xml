@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/orange">
+        <include
+            android:id="@+id/newyork"
+            layout="@layout/chunk"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            />
+        <include
+            android:id="@+id/sydney"
+            layout="@layout/chunk"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+        <include
+            android:id="@+id/beijing"
+            layout="@layout/chunk"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+        <include
+            android:id="@+id/japan"
+            layout="@layout/chunk"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+        <include
+            android:id="@+id/london"
+            layout="@layout/chunk"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/orange">
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/stroke"
+                android:text="12 H"
+                android:textColor="#2B2B2B"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="@id/button24"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="24 H"
+                android:background="@drawable/stroke"
+                android:textColor="#3C3E3F"
+                android:textSize="30sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@id/button12" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
